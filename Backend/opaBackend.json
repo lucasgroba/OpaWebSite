@@ -1,0 +1,251 @@
+{
+    "categories": [{
+            "Id": 1,
+            "Name": "Restaurantes"
+        },
+        {
+            "Id": 2,
+            "Name": "Estética"
+        },
+        {
+            "Id": 3,
+            "Name": "Tiempo Libre"
+        },
+        {
+            "Id": 4,
+            "Name": "Hoteles en Uruguay"
+        },
+        {
+            "Id": 5,
+            "Name": "Viajes Internacionales"
+        },
+        {
+            "Id": 6,
+            "Name": "Servicios Varios"
+        }
+    ],
+    "paymentMethods": [{
+            "Id": 1,
+            "Name": "VISA",
+            "Type": "Crédito"
+        },
+        {
+            "Id": 2,
+            "Name": "MASTER CARD",
+            "Type": "Crédito"
+        },
+        {
+            "Id": 3,
+            "Name": "OCA",
+            "Type": "Crédito"
+        },
+        {
+            "Id": 4,
+            "Name": "Visa Electron",
+            "Type": "Débito"
+        }
+    ],
+    "providers": [{
+            "Id": 1,
+            "Name": "La Vaca Parrilla",
+            "Location": "Montevideo",
+            "paymentMethods": [{
+                "Id": 1
+            }, {
+                "Id": 2
+            }, {
+                "Id": 4
+            }]
+        },
+        {
+            "Id": 2,
+            "Name": "Automovil Club del Uruguay",
+            "Location": "Montevideo",
+            "paymentMethods": [{
+                "Id": 1
+            }, {
+                "Id": 2
+            }, {
+                "Id": 4
+            }]
+        },
+        {
+            "Id": 3,
+            "Name": "Opa Store",
+            "Location": "Montevideo",
+            "paymentMethods": [{
+                "Id": 1
+            }, {
+                "Id": 2
+            }, {
+                "Id": 4
+            }]
+        }
+    ],
+    "deals": [{
+            "Id": 1,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 1,
+            "rating": 3.5,
+            "price": 1500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 2,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 2,
+            "rating": 4,
+            "price": 1500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 3,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 3,
+            "rating": 2.5,
+            "price": 1500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 4,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 1,
+            "rating": 3.5,
+            "price": 1500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 5,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 2,
+            "rating": 4,
+            "price": 1501.50,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 6,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 3,
+            "rating": 2.5,
+            "price": 1530,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 7,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 1,
+            "rating": 3.5,
+            "price": 12500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 8,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 2,
+            "rating": 4,
+            "price": 1500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 9,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 3,
+            "rating": 2.5,
+            "price": 2300,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 10,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 1,
+            "rating": 3.5,
+            "price": 2400,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 11,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 2,
+            "rating": 4,
+            "price": 3400,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 12,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 3,
+            "rating": 2.5,
+            "price": 2500,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 13,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 1,
+            "rating": 3.5,
+            "price": 99.99,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 14,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 1,
+            "rating": 3.5,
+            "price": 1999.99,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        },
+        {
+            "Id": 15,
+            "Name": "Lorem ipsum dolor sit amet.",
+            "providerId": 1,
+            "rating": 3.5,
+            "price": 1499.99,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget.",
+            "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "Details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique.",
+            "sellConditions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, congue blandit magna nec, sagittis iaculis metus. In pulvinar consectetur diam, eget tristique risus tincidunt id. Suspendisse nec tincidunt arcu. Ut mattis lorem ut varius condimentum. Nunc at elementum leo. Nullam ut congue leo, ultrices efficitur risus. Ut vestibulum nisl in accumsan convallis. Nunc metus est, efficitur ut tristique."
+        }
+    ]
+}
