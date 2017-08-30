@@ -26,7 +26,6 @@ function getDeals(){
     var deals = read("/deals", loadOffers );
     
     console.log(deals);
-    loadOffers(deals);
 
 }
 

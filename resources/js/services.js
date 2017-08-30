@@ -5,7 +5,7 @@ var deals = "/deals";
 
 var baseUrl = "http://localhost:3000";
 
-function read(resourceUrl , callback) {
+function read(resourceUrl , callback ) {
     $.ajax({
         url: returnRequestUrl(resourceUrl),
         contentType: "application/json"
