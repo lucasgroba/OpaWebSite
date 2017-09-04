@@ -19,9 +19,10 @@ h1{
     display: inline-block;
 }
 h2{
-    margin-left: 100px;
+    margin-left: 20px;
     color: #73dc8e;
     display: inline-block;
+    font-size: 40px;
 }
 
 footer{
