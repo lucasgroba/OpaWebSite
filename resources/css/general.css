@@ -17,10 +17,11 @@ header, footer {
 h1{
     margin-top: 50px;
     color: rgb(1, 206, 255);
+    display: inline-block;
 }
 
 h2{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 20px;
     color: #73dc8e;
     display: inline-block;
@@ -36,6 +37,7 @@ footer{
     display: inline-block;
     margin-left: 100px;
     font-size: 50px;
+    width: 10%;
 }
 
 #header-title:hover{
@@ -64,4 +66,8 @@ article {
     overflow: hidden;
 }
 
-
+.img {
+    display: inline-block;
+    height: 150px;
+    width: 150%;
+}
