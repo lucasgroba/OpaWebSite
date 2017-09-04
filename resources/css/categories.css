@@ -1,0 +1,12 @@
+.container-Categories{
+	margin: 0;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+
+}
+.title_Cat{
+	color: black;
+	margin: 0;
+	margin-bottom: 5%;
+}
