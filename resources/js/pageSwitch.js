@@ -7,6 +7,8 @@ var switchContent = function (page) {
         $(".containerD").html(data);
     });
 };
+
+
 var switchTreeContent = function (page) {
     $.ajax({
         url: page,
