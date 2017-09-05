@@ -34,9 +34,9 @@ h1{
 }
 
 h2{
-    margin-top: 30px;
-    margin-left: 20px;
-    color: #73dc8e;
+    font-size: 25px;
+    margin-left: 0;
+    color: #1dd11b;
     display: inline-block;
 }
 
@@ -89,6 +89,10 @@ article {
     border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+}
+
+.img{
+    height: 140px;
 }
 
 
