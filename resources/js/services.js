@@ -26,7 +26,7 @@ function create(resourceUrl, resourceData) {
     });
 }
 
-function update(resourceUrl, id, resourceData) {
+function update(resourceUrl, id, resourceData,collback) {
     $.ajax({
         url: returnRequestUrl(resourceUrl + "/" + id),
         data: resourceData,

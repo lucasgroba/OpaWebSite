@@ -29,6 +29,12 @@ function getDeals(){
 
 }
 
+function modificarCarrito(carrito){
+
+    var productId = document.getElementsByClassName('offer-detail-name');
+    update("/carts/",carrito,) 
+}
+
 
 
 var loadOffers = function ( offers ){
@@ -41,10 +47,10 @@ var loadOffers = function ( offers ){
         newDeal.getElementsByClassName('deal-name')[0].innerText = offers[i].Name;
         newDeal.getElementsByClassName('deal-location')[0].innerText = offers[i].providerId;
         newDeal.getElementsByClassName('deal-price')[0].innerText = offers[i].price;
-        newDeal.getElementsByClassName('deal-description')[0].innerText = offers[i].description;//cago los datos de las ofertas
+        newDeal.getElementsByClassName('deal-description')[0].innerText = offers[i].description;//cargo los datos de las ofertas
 
         newDeal.style.display = 'inline-block';//seteo visible el contenedor
-        listContainer.appendChild(newDeal);// inseto la oferta en el contenedor 'deal-list-container'
+        listContainer.appendChild(newDeal);// inserto la oferta en el contenedor 'deal-list-container'
     }
 }
 
