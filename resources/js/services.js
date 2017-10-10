@@ -15,14 +15,14 @@ function read(resourceUrl , callback ) {
     });
 }
 
-function create(resourceUrl, resourceData) {
+function create(resourceUrl, resourceData, callback) {
     $.ajax({
         url: returnRequestUrl(resourceUrl),
         data: resourceData,
+        contentType: "application/json",
         type: 'POST'
     }).done(function(data) {
-        console.log(data);
-        return data;
+        callback(data);
     });
 }
 

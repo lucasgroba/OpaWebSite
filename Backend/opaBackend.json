@@ -262,10 +262,21 @@
             "deals":[]
         }
     ],
-    "user":[
-        {
-
-        }
+    "users": [
+    {
+      "id": 1,
+      "name": "pedro",
+      "password": "123",
+      "cart": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ana",
+      "password": "123",
+      "cart": 4
+    }
     ]
-}
 }
