@@ -74,7 +74,7 @@ nav ul li a {
 }
    
 .button_nav{
-    border: 2px solid ;
+    border: 1px solid ;
     border-radius: 5px;
     border-color: #070707;
 }
@@ -94,5 +94,6 @@ article {
 .img{
     height: 140px;
 }
+
 
 
