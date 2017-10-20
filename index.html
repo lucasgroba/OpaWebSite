@@ -3,35 +3,41 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./resources/bootstrap-3.3.7-dist/css/bootstrap.min.css"></link>
     <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap-treeview.min.css"></link>
     <link rel="stylesheet" type="text/css" href="./resources/css/general.css"></link>
     <link rel="stylesheet" type="text/css" href="./resources/css/categories.css"></link>
     <link rel="stylesheet" type="text/css" href="./resources/css/deals.css"></link>
-    
+    <link rel="stylesheet" type="text/css" href="./resources/css/nav_bar.css"></link>
+    <link rel="stylesheet" type="text/css" href="./resources/images/fonts/style.css"></link>
+       
 
     <title> OPA! ofertas de verdad </title>
 
 </head>
 
 <body>
-
-
     <header class="header">
         <span id="header-tit" onclick="switchContent('templates/deals/dealList.html')"><img class="img" src="/resources/images/logo.png"></span>
         <h2> ofertas de verdad... </h2>
-        <nav class="nav-bar">
+        <div class="menu_bar">
+            <a href="#" class="bt-menu"><span class="icon-grid"></span>Menu</a>
+        </div>
+    
+        <nav>
             <ul>
-                <li class=""><a  href="#" onclick="switchContent('templates/deals/carrito.html')"><img src="resources/images/carrito32.png"></a></li>
-                <li class="button_nav" ><a  href="#">Ofertas</a></li>
-                <li class="button_nav" ><a  href="#" onclick="switchContent('templates/novelty/novelty.html')">Novedades</a></li>
-                <li class="button_nav"><a  href="#">Restaurantes</a></li>
-                <li class="button_nav"><a  href="#" onclick="switchContent('templates/account/signup.html')">Registrarme</a></li>
-                <li class="button_nav"><a  href="#" onclick="switchContent('templates/deals/newDeal.html')">Nueva Oferta</a></li>
-                
+                <li><a href="#"><span class="icon-shopping-cart"></span>Carrito</a></li>
+                <li><a href="#" onclick="switchContent('templates/deals/newDeal.html')" ><span class="icon-shop"></span>Ofertas</a></li>
+                <li><a href="#" onclick="switchContent('templates/account/signup.html')"><span class="icon-add-user"></span>Registrarse</a></li>
+                <li><a href="#"><span class="icon-user"></span>Iniciar Sesion</a></li>
+                <li><a href="#" onclick="switchContent('templates/novelty/novelty.html')" ><span class="icon-open-book"></span>Novedades</a></li>
+                <li><a href="#"><span class="icon-user"></span>Cerrar Sesion</a></li>
             </ul>
         </nav>
     </header>
+
+    
 
 
     <div class="containerD">
@@ -47,7 +53,8 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/resources/js/nav_bar.js"></script>
     <script src="/resources/js/services.js"></script>
     <script src="/resources/js/pageSwitch.js"></script>
     
@@ -56,6 +63,6 @@
    
 </body>
 
-// este esta andando
+
 
 </html>
