@@ -1,13 +1,57 @@
      
 
-.product-info-container {
-    border : 2px solid;
-    border-radius: 6px;
-    width: 70%;
-    min-height: 40vh;
-    background-color: rgba(15, 15, 15, 0.3);
-    
+/* Style de DEALS LIST */
+.deal-info-wrapper{
+    display: inline-block;
+    margin:7px;
 }
+
+.deal-info-wrapper h4, .deal-info-wrapper h5, .deal-info-wrapper p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+.deals-container {
+    border: 2px solid gray;
+    width: 40%;
+    height: 300px;
+    display: inline-block;
+    margin: 5px;
+    background-color: rgba(81, 170, 188, 0.8); 
+    border-radius: 8px;
+}
+
+.deals-container:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.deal-list-container{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.deal-img-wrapper{
+    display: inline-block;
+    margin: 10px;
+}
+
+.deal-id {
+    display: none;
+}
+
+.deal-img-wrapper img{
+    display: inline-block;
+    width: 50%;
+    border-radius: 4px;
+}
+
+
+
+/* STYLE DEALS DETAILS */
+
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -50,7 +94,7 @@
 }
 
 .detail-img {
-    height: 200px;
+    height:300px;
     width: 300px;
 }
 .detail-img:hover{
@@ -58,73 +102,44 @@
 
 }
 
+.product-info-container {
+    border : 2px solid;
+    border-radius: 6px;
+    min-height:300px;
+    min-width: 305px;
+    margin: auto;
+    background-color: rgba(15, 15, 15, 0.3);
+    display: inline-block;
+    
+}
+
 .product-image {
     padding: 0;
-    margin: 0.5%;
+    margin-right: auto;
+    margin-left: auto;
     display: inline-block;
-    width: 300px;
-    height: 200px;
+    min-height:300px;
+    min-width: 300px;
     border: 1px solid;
-    margin-top: 10px;
-    margin-left: 10px; 
-    border-radius: 3px;
-    float: left;
+    border-radius: 4px;
+    
 
 }
 
 .product-info {
     padding: 0;
-    width: 300px;
-    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    height:300px;
+    width: 60%;
+    min-height:300px;
+    min-width: 300px;
     display: inline-block;
     text-align: center;
-    margin: 1%;
-    float: right;
-    margin-top: 3%;
-    
 }
 
-.deal-info-wrapper{
-    display: inline-block;
-    margin:7px;
-}
-
-.deal-info-wrapper h4, .deal-info-wrapper h5, .deal-info-wrapper p{
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-
-
-.deals-container {
-    border: 2px solid gray;
-    width: 40%;
-    height: 300px;
-    display: inline-block;
-    margin: 5px;
-    background-color: rgba(81, 170, 188, 0.8); 
-    border-radius: 8px;
-}
-
-.deals-container:hover{
-    cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.deal-list-container{
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-}
-
-.deal-img-wrapper{
-    display: inline-block;
-    margin: 10px;
-}
-
-.deal-img-wrapper img{
-    display: inline-block;
-    width: 50%;
-    border-radius: 4px;
+.product-info p,.product-info h4,.product-info h5,.product-info button{
+    margin: auto;
 }
 
 .Deals-Details-Name{
@@ -144,6 +159,7 @@
     font-size: 20px;
 
 }
+/* STYLE FORM NEWDEALS */
 
 input,select{
   height: 40px;

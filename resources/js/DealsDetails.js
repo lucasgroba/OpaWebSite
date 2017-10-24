@@ -1,6 +1,7 @@
 
 function getDetails(){
-      var deal = read("/deals", LoadOfferDatails);
+      var id = getCookie("selectDeals");
+      var deal = read("/deals/"+id, LoadOfferDatails);
 }
 var LoadOfferDatails = function (offersDeals){
       document.getElementsByClassName('Deals-Details-Name')[0].innerText = offersDeals[0].Name;

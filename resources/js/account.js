@@ -8,6 +8,4 @@ function register(){
 	console.log(data);
 	var Userdata = JSON.stringify(data);
 	create("/users/",Userdata,);
-
-	
 }

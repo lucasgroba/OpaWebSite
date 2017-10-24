@@ -44,6 +44,7 @@ var loadOffers = function ( offers ){
     for(var i in offers){
         //Clones the DOM node, takes a deep copy paramenter in order to clone all the descendant nodes
         var newDeal = dealContainer.cloneNode(true);// clona o hace una copia en profundidad(osea todos los hijos) del contenedor 
+        newDeal.getElementsByClassName('deal-id')[0].innerText = offers[i].Id;
         newDeal.getElementsByClassName('deal-name')[0].innerText = offers[i].Name;
         newDeal.getElementsByClassName('deal-location')[0].innerText = offers[i].providerId;
         newDeal.getElementsByClassName('deal-price')[0].innerText = offers[i].price;
@@ -68,6 +69,14 @@ function loadOffersJquery(){
         $listContainer.append($newDeal);
     });
       
+}
+
+function selectDeal(){
+    $('.deals-container').click(function(e){
+        var id = e.target.value;
+        setCookie("selectDeals",id,1);
+    });
+    switchContent('templates/deals/deal.html');
 }
 
 getDeals();

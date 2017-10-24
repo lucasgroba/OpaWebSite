@@ -1,7 +1,5 @@
 /*Services facade to connect to backend*/
-var categoriesURI = "/categories";
-var paymentMethods = "/paymentMethods";
-var deals = "/deals";
+
 
 var baseUrl = "http://localhost:3000";
 
