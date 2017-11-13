@@ -1,11 +1,22 @@
-<div id="deal-list-container" class="deal-list-container">
+<div id="ContainerOrder" >
+    <form id="FormOrder">
+        <select class= "order" id="order" onchange="selectOrder()">
+            <option value="MostViews">Mas Visitadas</option>
+            <option value="Rating" selected>Mejor Calificadas</option>
+            <option value="Price">Mejores Precios</option>
+        </select>
+    </form>
+
+</div>
+<div id="deal-list-container" class="deal-list-container" >
     
-<div class="deals-container" style="display:none" onclick="selectDeal()" >
+<div class="deals-container" style="display:none" >
+        
         <div class="deal-img-wrapper">
             <img src="./resources/images/parrillada.jpg" alt="Oferta Parrillada"></img>
         </div>
-        <div class="deal-info-wrapper">
-            <h6 class ="deal-id"></h6>
+        <div class="deal-info-wrapper" onclick="selectDeal(this)" >
+            <h6 id="dealId" class ="deal-id"></h6>
             <h4 class="deal-name"></h4>
             <p class="deal-location"></p>
             <h5 class="deal-price"></h5>

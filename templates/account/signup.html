@@ -1,9 +1,16 @@
 
 <div class="UserRegister">
 	<form>
-		<input type="text" class="InputUser" id="UserName" placeholder="Nombre">
-		<input type="password" class="InputUser" id="UserPass" placeholder="Contraseña">
-		<input type="submit" class="InputUser" name="Register" value="Registarme" onclick="register()">
+		<input type="text" class="InputUser" id="UserName" placeholder="Nombre" required>
+		<span class="icon-cross" id="ErrorName"></span>
+		<span class="icon-check" id="SuccessName"></span>
+		<input type="password" class="InputUser" id="UserPass" placeholder="Contraseña" onfocus="validateName()" required>
+		<span class="icon-cross" id="ErrorPass"></span>
+		<span class="icon-check" id="SuccessPass"></span>
+		<input type="password" class="InputUser" id="UserRePass" placeholder="Repetir Contraseña" onfocus="validatePassword()" required>
+		<span class="icon-cross" id="ErrorRePass"></span>
+		<span class="icon-check" id="SuccessRePass"></span>
+		<input type="submit" class="InputUser" id="Register" value="Registarme" onfocus="validateRePassword()" onclick="register()">
 	</form>
 </div>
 

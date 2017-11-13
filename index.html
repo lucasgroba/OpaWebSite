@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="./resources/bootstrap-3.3.7-dist/css/bootstrap.min.css"></link>
     <link rel="stylesheet" type="text/css" href="/resources/css/bootstrap-treeview.min.css"></link>
     <link rel="stylesheet" type="text/css" href="./resources/css/general.css"></link>
+    <link rel="stylesheet" type="text/css" href="./resources/css/account.css"></link>
     <link rel="stylesheet" type="text/css" href="./resources/css/categories.css"></link>
     <link rel="stylesheet" type="text/css" href="./resources/css/deals.css"></link>
     <link rel="stylesheet" type="text/css" href="./resources/css/nav_bar.css"></link>
@@ -27,12 +28,12 @@
     
         <nav>
             <ul>
-                <li><a href="#"><span class="icon-shopping-cart"></span>Carrito</a></li>
-                <li><a href="#" onclick="switchContent('templates/deals/newDeal.html')" ><span class="icon-shop"></span>Ofertas</a></li>
-                <li><a href="#" onclick="switchContent('templates/account/signup.html')"><span class="icon-add-user"></span>Registrarse</a></li>
-                <li><a href="#"><span class="icon-user"></span>Iniciar Sesion</a></li>
-                <li><a href="#" onclick="switchContent('templates/novelty/novelty.html')" ><span class="icon-open-book"></span>Novedades</a></li>
-                <li><a href="#"><span class="icon-user"></span>Cerrar Sesion</a></li>
+                <li ><a href="#" id="cartNav"><span class="icon-shopping-cart"></span>Carrito<label id="cart"></label></a></li>
+                <li ><a href="#" id="deal" onclick="switchContent('templates/deals/newDeal.html')" ><span class="icon-shop"></span>Ofertas</a></li>
+                <li ><a href="#" id="signup" onclick="switchContent('templates/account/signup.html')"><span class="icon-add-user"></span>Registrarse</a></li>
+                <li ><a href="#" id="login" onclick="switchContent('templates/account/Login.html')"><span class="icon-user"></span>Iniciar Sesion</a></li>
+                <li ><a href="#" id="novelty" onclick="switchContent('templates/novelty/novelty.html')" ><span class="icon-open-book"></span>Novedades</a></li>
+                <li ><a href="#" id="logout"><span class="icon-user"></span>Cerrar Sesion</a></li>
             </ul>
         </nav>
     </header>
@@ -40,7 +41,7 @@
     
 
 
-    <div class="containerD">
+    <div class="containerD" id="containerD">
         
 
      
@@ -53,10 +54,15 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/resources/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js " > </script> 
+    <script src="/resources/js/bootstrap-treeview.min.js"></script>
     <script src="/resources/js/nav_bar.js"></script>
     <script src="/resources/js/services.js"></script>
     <script src="/resources/js/pageSwitch.js"></script>
+    <script src="/resources/js/account.js"></script>
     <script src="/resources/js/cookies.js"></script>
+    <script src="/resources/js/general.js"></script>
 
     
     
