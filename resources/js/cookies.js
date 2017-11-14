@@ -19,3 +19,7 @@ function setCookie(cname, cvalue, exdays) {
 	var expires = "expires=" + d.toUTCString();
 	document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
+
+function deleteCookie(key) {
+    return document.cookie = key + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}

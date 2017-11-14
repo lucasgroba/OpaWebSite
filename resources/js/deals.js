@@ -24,11 +24,11 @@ function selectOrder(){
 
 }
 
-function modificarCarrito(carrito){
+// function modificarCarrito(carrito){
 
-    var productId = document.getElementsByClassName('offer-detail-name');
-    update("/carts/",carrito) 
-}
+//     var productId = document.getElementsByClassName('offer-detail-name');
+//     update("/carts/",carrito) 
+// }
 
 
 
@@ -65,15 +65,15 @@ function loadOffersJquery(){
     });
       
 }
-$(document).ready(function(){
-    $('.deals-container').click(function(e){
-        var dealClick = e.target;
+// $(document).ready(function(){
+//     $('.deals-container').click(function(e){
+//         var dealClick = e.target;
         
-        alert(dealClick.getElementsByClassName("deal-id")[0]);
+//         alert(dealClick.getElementsByClassName("deal-id")[0]);
       
-      setCookie('selectDeal',$(this).attr(),1);
-    })
-  })
+//       setCookie('selectDeal',$(this).attr(),1);
+//     })
+//   })
   
 function selectDeal( elemento){
     var id = elemento.getElementsByClassName("deal-id")[0].innerText;

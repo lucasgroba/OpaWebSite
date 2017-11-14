@@ -102,35 +102,44 @@ function register(){
 var loginUser = function(users){
 	var user = getCookie('UserName');
 	var pass = getCookie('UserPass');
-	debugger;
-	for(var i in users){
-		if(users[i].name == user){
-			if(users[i].password == pass){
-				setCookie('isLogged','true',1);
-				loadUserData(users[i]);
-				switchContent('templates/deals/dealList.html');
-				loadNavbar(true);
-				break;
+	deleteCookie('UserName');
+	deleteCookie('UserPass');
+	if(users.size == 0){
+		for(var i in users){
+			if(users[i].name == user){
+				if(users[i].password == pass){
+					setCookie('isLogged','true',1);
+					loadUserData(users[i]);
+					switchContent('templates/deals/dealList.html');
+					loadNavbar(true);
+					break;
+					
+				}
+				else{
+					swal({
+						title: "Error",
+						text: "Contraseña Incorrecta",
+						icon: "error",
+					});
+					break;
+				}
 				
 			}
-			else{
+			if(users.length-1 == i){
 				swal({
 					title: "Error",
-					text: "Contraseña Incorrecta",
+					text: "No existe el Usuario con el nombre especificado",
 					icon: "error",
 				});
 				break;
 			}
-			
 		}
-		if(users.length-1 == i){
-			swal({
-				title: "Error",
-				text: "No existe el Usuario con el nombre especificado",
-				icon: "error",
-			});
-			break;
-		}
+	}else{
+		swal({
+			title: "Error",
+			text: "No existe el Usuario con el nombre especificado",
+			icon: "error",
+		});
 	}
 }
 
@@ -144,11 +153,6 @@ function login(){
 	loadNavbar(loged);
 }
 function loadUserData(user){
-	var UserData = new Object();
-	UserData.name = user.name;
-	UserData.id = user.id;
-	UserData.cart = user.cart;
-	// var ObjUser = JSON.stringify(UserData);
-	setCookie("UserData",UserData,1);
+	setCookie("UserData",user.id,1);
 	document.getElementById("cart").innerText = ' '+user.cart.length;
 }
