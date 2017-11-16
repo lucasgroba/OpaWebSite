@@ -13,18 +13,15 @@ var loadCategories = function(cat){
     tree.push(nodo);
   }
   var test_tree=JSON.stringify(tree);
-  $('#Tree').treeview({onNodeSelected :  function ( event , data ) {console.log('entre al evento');},data: test_tree, borderColor:"#050528", multiSelect: false , backColor:"rgba(19, 110, 117,0.8)" ,onhoverColor:"#5d5e60", color:"#070707",showCheckbox:false});
+  $('#Tree').treeview({onNodeSelected : SelectedNodeTree,data: test_tree, borderColor:"#050528", multiSelect: false , backColor:"rgba(19, 110, 117,0.8)" ,onhoverColor:"#5d5e60", color:"#070707",showCheckbox:false});
 }
 
+var SelectedNodeTree = function( event , data ){
+  debugger;
+  getDeals("Categories",data.text);
 
+}
   
-
-
-  $('#Tree').on("nodeSelected", function(event, data){
-    alert(data);
-    console.log('entre al evento');
-  });
-
 
 
 
