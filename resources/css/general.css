@@ -58,88 +58,13 @@ footer{
 #header-tit:hover{
     cursor: pointer;
 }
-/* 
-nav {
-    float: right; 
-    margin: 0;
-    padding: 5em;
-    height: 90%;
-}
-
-nav ul li {
-    display: inline-block;
-}
-nav ul li a {
-    font-size: 20px;
-    color: #070707;
-} */
-   
-/* .button_nav{
-    border: 1px solid ;
-    border-radius: 5px;
-    border-color: #070707;
-}
-
-.button_nav:hover {
-    border: 2px solid ;
-    border-radius: 5px;
-    border-color: grey;
-} */
 
 * {
     margin:0px;
     padding:0px;
 }
 
-/* #header {
-    margin:auto;
-    width:100%;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:rgba(0, 0, 0, 0.4);
-}
 
-ul, ol {
-    list-style:none;
-}
-
-.nav {
-    width:100%; 
-    margin:0 auto; 
-}
-
-.nav > li {
-    float: right;
-}
-
-.nav li a {
-    color:#fff;
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
-}
-
-.nav li a:hover {
-    background-color:#434343;
-}
-
-.nav li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
-}
-
-.nav li:hover > ul {
-    display:block;
-}
-
-.nav li ul li {
-    position:relative;
-}
-
-.nav li ul li ul {
-    right:-140px;
-    top:0px;
-} */
 article {
     margin-left: 170px;
     border-left: 1px solid gray;
@@ -151,5 +76,41 @@ article {
     height: 140px;
 }
 
+/* Style buscador de la NavBar */
+.formNav{
+    display: inline-block;
+}
+.inputNav{
+    display: inline-block;
+}
+button {
+    border: none;
+    background: #3a7999;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    display: inline-block;
+   }
+   
 
+ #BtnSearch{
+    padding: 10px 35px;
+    overflow:hidden;
+   }
 
+   #BtnSearch:before {
+    font-family: FuentesLucas;
+    content:'\e9d9';
+    position: absolute;
+    top: 11px;
+    left: -30px;
+    transition: all 200ms ease;
+   }
+
+   #BtnSearch:hover:before {
+    left: 7px;
+   }

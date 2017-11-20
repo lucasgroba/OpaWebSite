@@ -20,5 +20,10 @@ function loadNavbar(loged){
         
     }
 }
+
+function SearchDeals(){
+
+}
+
 var loged = getCookie('isLogged');
 loadNavbar(loged);
