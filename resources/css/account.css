@@ -1,18 +1,77 @@
 #ErrorName{
     display:none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto;
 }
 #SuccessName{
     display:none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto;
 }
 #ErrorPass{
     display:none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto;
 }
 #SuccessPass{
     display:none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto;
 }
 #ErrorRePass{
     display:none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto;
 }
 #SuccessRePass{
     display:none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto;
+}
+.imgAccount{
+    width:  50%;
+    height: 50%;
+    margin: auto;
+    align-content: center;
+    display: block;
+}
+
+.InputUser{
+margin: auto;
+padding: auto;
+}
+.account{
+    width: 350px;
+	margin: 50px auto;
+	background-color: rgba(133, 135, 139, 0.651);
+    border: 1px solid rgba(20, 20, 20, 0.637);
+	height: 430px;
+	border-radius:8px;
+	padding: 0px 9px 0px 9px;
+}
+.accountLogin{
+    width: 350px;
+	margin: 50px auto;
+	background-color: rgba(133, 135, 139, 0.651);
+    border: 1px solid rgba(20, 20, 20, 0.637);
+	height: 350px;
+	border-radius:8px;
+	padding: 0px 9px 0px 9px;
+}
+#Register{
+    background: cornflowerblue;
+    width: 50%;
+    font-weight: bold;
 }

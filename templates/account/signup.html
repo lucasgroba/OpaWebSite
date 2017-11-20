@@ -1,15 +1,21 @@
 
-<div class="UserRegister">
+<div class="account">
+	<div>
+		<img class="imgAccount" src="resources/images/account.png" alt="">
+	</div>
 	<form>
 		<input type="text" class="InputUser" id="UserName" placeholder="Nombre" required>
 		<span class="icon-cross" id="ErrorName"></span>
 		<span class="icon-check" id="SuccessName"></span>
+		<br>
 		<input type="password" class="InputUser" id="UserPass" placeholder="Contraseña" onfocus="validateName()" required>
 		<span class="icon-cross" id="ErrorPass"></span>
 		<span class="icon-check" id="SuccessPass"></span>
+		<br>
 		<input type="password" class="InputUser" id="UserRePass" placeholder="Repetir Contraseña" onfocus="validatePassword()" required>
 		<span class="icon-cross" id="ErrorRePass"></span>
 		<span class="icon-check" id="SuccessRePass"></span>
+		<br>
 		<input type="submit" class="InputUser" id="Register" value="Registarme" onfocus="validateRePassword()" onclick="register()">
 	</form>
 </div>

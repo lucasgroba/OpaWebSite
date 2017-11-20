@@ -22,7 +22,8 @@ function loadNavbar(loged){
 }
 
 function SearchDeals(){
-
+    var text = document.getElementById('SearchDeal').value;
+    read("/deals?q="+text,loadOffers);
 }
 
 var loged = getCookie('isLogged');

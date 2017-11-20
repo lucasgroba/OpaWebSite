@@ -2,6 +2,7 @@
 var NameValidate = function( user ){
 	if(user.length == 0){
 		document.getElementById('ErrorName').style.display = "none";
+		document.getElementById('SuccessName').innerText= 'El usuario esta disponible';
 		document.getElementById('SuccessName').style.display = 'inline-block';
 		document.getElementById('Register').disabled = false;
 	}
@@ -10,6 +11,7 @@ var NameValidate = function( user ){
 		for(var i in user){
 			if(user[i].name == UserName || UserName ==''){
 				document.getElementById('SuccessName').style.display = "none";
+				document.getElementById('ErrorName').innerText = 'Usuario Invalido';
 				document.getElementById('ErrorName').style.display = 'inline-block';
 				document.getElementById('UserName').focus();
 				document.getElementById('Register').disabled = true;
@@ -17,6 +19,7 @@ var NameValidate = function( user ){
 			else{
 				if(i == user.length -1){
 					document.getElementById('ErrorName').style.display = "none";
+					document.getElementById('SuccessName').innerText= 'El usuario esta disponible';
 					document.getElementById('SuccessName').style.display = 'inline-block';
 					document.getElementById('Register').disabled = false;
 				}
@@ -35,12 +38,13 @@ function validateName(){
 function validatePassword(){
 	if(document.getElementById('UserPass').value.length >= 8){
 		document.getElementById('ErrorPass').style.display = "none";
+		document.getElementById('SuccessPass').innerText = 'Contraseña Valida';
 		document.getElementById('SuccessPass').style.display = 'inline-block';
 		return true;
 	}
 	else{
 		document.getElementById('ErrorPass').style.display ='inline-block';
-		document.getElementById('ErrorPass').innerText= 'La passwword debe contener al menos 8 digitos';
+		document.getElementById('ErrorPass').innerText= 'La Contraseña debe contener al menos 8 digitos';
 		document.getElementById('SuccessPass').style.display =  "none";
 		return false;
 	}
@@ -50,6 +54,7 @@ function validateRePassword(){
 	var rePass = document.getElementById("UserRePass").value;
 	if(pass === rePass && pass.length >= 8 && rePass >= 8){
 		document.getElementById('ErrorRePass').style.display = "none";
+		document.getElementById('SuccessRePass').innerText = 'Las Contraseñas son iguales.';		
 		document.getElementById('SuccessRePass').style.display = 'inline-block';
 		return true;
 	}

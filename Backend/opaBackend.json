@@ -204,7 +204,7 @@
     },
     {
       "id": 9,
-      "Name": "Lorem ipsum dolor sit amet.",
+      "Name": "Hotel Costa.",
       "providerId": 3,
       "rating": 2.5,
       "views": 4,
@@ -217,7 +217,7 @@
     },
     {
       "id": 10,
-      "Name": "Lorem ipsum dolor sit amet.",
+      "Name": "Hotel Centro.",
       "providerId": 1,
       "rating": 3.5,
       "views": 4,
@@ -282,7 +282,7 @@
     },
     {
       "id": 15,
-      "Name": "Lorem ipsum dolor sit amet.",
+      "Name": "Auto 0 km.",
       "providerId": 1,
       "rating": 3.5,
       "views": 4,
@@ -331,6 +331,12 @@
       "name": "lucas",
       "password": "123",
       "id": 3
+    },
+    {
+      "cart": [],
+      "name": "luc",
+      "password": "12345678",
+      "id": 4
     }
   ]
 }
