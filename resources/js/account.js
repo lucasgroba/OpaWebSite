@@ -104,7 +104,7 @@ var loginUser = function(users){
 	var pass = getCookie('UserPass');
 	deleteCookie('UserName');
 	deleteCookie('UserPass');
-	if(users.size == 0){
+	if(users.length != 0){
 		for(var i in users){
 			if(users[i].name == user){
 				if(users[i].password == pass){
@@ -154,5 +154,11 @@ function login(){
 }
 function loadUserData(user){
 	setCookie("UserData",user.id,1);
-	document.getElementById("cart").innerText = ' '+user.cart.length;
+	document.getElementById("cart").innerText = '   '+user.cart.length;
+}
+
+function logout(){
+	deleteCookie('isLogged');
+	deleteCookie('UserData');
+	location.reload();
 }

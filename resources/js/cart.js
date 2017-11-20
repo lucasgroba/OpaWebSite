@@ -7,18 +7,17 @@ var  loadCart = function(user){
 }
 
 var loadDeals = function ( offers ){
-    //debugger;//pausa la ejecucion funciona como breakpoint
-    var dealContainer = document.getElementsByClassName('deals-container')[0];//obtiene el primer elemento de la pagina
-    var listContainer = document.getElementById('deal-list-container');//for(var i=0; i < offers.length; i++) obtiene el elemento con el id especificadio en caso de que hayya mas de uno traera el  primero   
-    var newDeal = dealContainer.cloneNode(true);// clona o hace una copia en profundidad(osea todos los hijos) del contenedor 
+    var dealContainer = document.getElementsByClassName('deals-container')[0];
+    var listContainer = document.getElementById('deal-list-container');   
+    var newDeal = dealContainer.cloneNode(true);
     newDeal.getElementsByClassName('deal-id')[0].innerText = offers.id;
     newDeal.getElementsByClassName('deal-name')[0].innerText = offers.Name;
     newDeal.getElementsByClassName('deal-location')[0].innerText = offers.providerId;
     newDeal.getElementsByClassName('deal-price')[0].innerText = offers.price;
-    newDeal.getElementsByClassName('deal-description')[0].innerText = offers.description;//cargo los datos de las ofertas
+    newDeal.getElementsByClassName('deal-description')[0].innerText = offers.description;
 
-    newDeal.style.display = 'inline-block';//seteo visible el contenedor
-    listContainer.appendChild(newDeal);// inserto la oferta en el contenedor 'deal-list-container'
+    newDeal.style.display = 'inline-block';
+    listContainer.appendChild(newDeal);
 }
 
 var  isLogged = getCookie('isLogged');

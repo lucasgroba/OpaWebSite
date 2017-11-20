@@ -1,4 +1,4 @@
-$(document).ready(main);
+$(document).load(main);
 
 var contador = 1;
 

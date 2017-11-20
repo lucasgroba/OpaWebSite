@@ -1,7 +1,6 @@
 
 function getDetails(){
       var id = getCookie("selectDeal");
-      alert("/deals/"+id);
       read("/deals/"+id, LoadOfferDatails);
 }
 var LoadOfferDatails = function (offersDeals){
@@ -15,4 +14,29 @@ var LoadOfferDatails = function (offersDeals){
       deal.style.display ="inline-block";
       container.appendChild(deal);
 }
+
+function AddDealToCart(elemento){
+      var logged = getCookie("isLogged");
+      if(logged){
+          var userData = getCookie('UserData');
+          read('/users/'+userData,UpdateCart)
+      }
+      else{
+          switchContent('templates/account/login.html');
+      }
+  }
+  
+  var UpdateCart = function(UserData){
+      var IdDeal = getCookie('selectDeal');
+      deleteCookie('selectDeal');
+      UserData.cart.push(IdDeal);
+      update("/users/",UserData.id,JSON.stringify(UserData),);
+      document.getElementById("cart").innerText = '   '+UserData.cart.length;
+      swal({
+          title: "La oferta se agrego al carrito",
+          icon: "success",
+      });
+  }
+
+
 getDetails();

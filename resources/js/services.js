@@ -28,6 +28,7 @@ function update(resourceUrl, id, resourceData,collback) {
     $.ajax({
         url: returnRequestUrl(resourceUrl + "/" + id),
         data: resourceData,
+        contentType: "application/json",
         type: 'PUT'
     }).done(function(data) {
         console.log(data);

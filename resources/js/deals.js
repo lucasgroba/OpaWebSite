@@ -66,4 +66,7 @@ function selectDeal( elemento){
     switchContent('templates/deals/deal.html');
 }
 
+
+
+
 getDeals();

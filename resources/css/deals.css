@@ -247,3 +247,57 @@ input,select{
     box-shadow: 1px 1px 11px #330033;
     background: #58B14C url("http://i62.tinypic.com/15xvbd5.png") no-repeat scroll 319px center;
  }
+
+ /* BOTONES DE DEALS LIST */
+ button {
+    border: none;
+    background: #3a7999;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+   }
+   
+
+ #BtnAddCart{
+    padding: 10px 35px;
+    overflow:hidden;
+   }
+
+   #BtnAddCart:before {
+    font-family: FuentesLucas;
+    content:'\ea13';
+    position: absolute;
+    top: 11px;
+    left: -30px;
+    transition: all 200ms ease;
+   }
+
+   #BtnAddCart:hover:before {
+    left: 7px;
+   }
+
+   #BtnBuy{
+    padding: 10px 35px;
+    overflow:hidden;
+   }
+
+   #BtnBuy:before {
+    font-family: FuentesLucas;
+    content:'\ea38';
+    position: absolute;
+    top: 11px;
+    left: -30px;
+    transition: all 200ms ease;
+   }
+
+   #BtnBuy:hover:before {
+    left: 7px;
+   }
+   
+   
+   
+   
